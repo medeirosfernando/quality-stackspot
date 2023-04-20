@@ -1,0 +1,15 @@
+description: Stack com Cypress para testes não funcionais
+name: cypress-ay
+display-name: cypress-ay
+picture: stack.png
+category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/plugin/#category
+compatibility: # Put a list of technologies compatible with the stack
+  - java
+  - spring
+technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
+  - docker 
+about: docs/about.md
+use-cases:
+  - title: Use Case Title
+    content: docs/use-case.md
+    stackfile: stackfiles/default.yaml
