@@ -16,7 +16,7 @@ inputs:
   - label: Entre com a url do seu projeto
     type: text
     name: project_baseurl
-    default: https://wwww.google.com/
+    default: https://www.google.com/
     require: false
     global: true
   - label: Descrição do projeto
@@ -32,7 +32,7 @@ inputs:
     global: true
   - label: Qual a versão para instalação do Cypress Axe
     type: text
-    name: cypress_axe-install_version
+    name: cypress_axe_install_version
     default: '1.4.0'
     require: false
     global: true
