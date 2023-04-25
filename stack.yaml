@@ -6,6 +6,10 @@ category: backend # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-file
 compatibility: # Put a list of technologies compatible with the stack
   - java
   - spring
+  - cypress
+  - javascript
+  - typescript
+  - mocha
 technologies: # Ref: https://docs.stackspot.com/docs/create-stacks/yaml-files/yaml/#technologies 
   - docker 
 about: docs/about.md

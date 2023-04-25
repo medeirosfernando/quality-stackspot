@@ -1,0 +1,20 @@
+{
+  "name": "{{project_test_name}}",
+  "version": "1.0.0",
+  "description": "{{project_description}}",
+  "main": "index.js",
+  "scripts": {
+    "cy-open-el": "cypress open --browser electron",
+    "cy-open-ch": "cypress open --browser chrome",
+    "cy-open-ed": "cypress open --browser edge",
+    "cy-open-fi": "cypress open --browser firefox",
+    "cy-run": "cypress run"
+  },
+  "keywords": [],
+  "author": "{{project_author}}",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "{{cypress_install_version}}",
+    "cypress-axe": "{{cypress_axe-install_version}}"
+  }
+}

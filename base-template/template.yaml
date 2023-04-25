@@ -1,0 +1,64 @@
+name: base-template
+description: Template base para projetos de automação de testes com Cypress
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
+    global: true
+  - label: Entre com o nome do projeto de testes
+    type: text
+    name: project_test_name
+    default: projeto_automacao_testes
+    global: true
+  - label: Entre com a url do seu projeto
+    type: text
+    name: project_baseurl
+    default: https://wwww.google.com/
+    require: false
+    global: true
+  - label: Descrição do projeto
+    type: text
+    name: project_description
+    default: framework-automation-tests
+    global: true
+  - label: Qual a versão para instalação do Cypress
+    type: text
+    name: cypress_install_version
+    default: '12.10.0'
+    require: false
+    global: true
+  - label: Qual a versão para instalação do Cypress Axe
+    type: text
+    name: cypress_axe-install_version
+    default: '1.4.0'
+    require: false
+    global: true
+  - label: Entre com o nome do autor do projeto
+    type: text
+    name: project_author
+    default: QA
+    require: false
+    global: true
+  - label: Entre com o nome da suite de testes
+    type: text
+    name: name_your_test_suit
+    default: Google
+    require: true
+    global: true
+  - label: Entre com o nome da sua homepage
+    type: text
+    name: name_your_homepage
+    default: Pesquisa Google
+    require: true
+    global: true
+  - label: Entre com o título do cenário de teste
+    type: text
+    name: name_your_test_scenario
+    default: should validate the home page
+    require: true
+    global: true
+
+    
