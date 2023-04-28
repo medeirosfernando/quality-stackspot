@@ -1,5 +1,5 @@
 name: base-template
-description: Template base para projetos de automação de testes com Cypress
+description: Template base para projetos Cypress
 types:
   - app-template
 inputs:
@@ -27,13 +27,19 @@ inputs:
   - label: Qual a versão para instalação do Cypress
     type: text
     name: cypress_install_version
-    default: '12.10.0'
+    default: 'Maior ou igual a versão 10'
     require: false
     global: true
   - label: Qual a versão para instalação do Cypress Axe
     type: text
     name: cypress_axe_install_version
     default: '1.4.0'
+    require: false
+    global: true
+  - label: Qual a versão para instalação do Axe-core
+    type: text
+    name: axe_install_version
+    default: '4.7.0'
     require: false
     global: true
   - label: Entre com o nome do autor do projeto
@@ -60,5 +66,3 @@ inputs:
     default: should validate the home page
     require: true
     global: true
-
-    

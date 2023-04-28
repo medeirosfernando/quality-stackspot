@@ -14,6 +14,7 @@
   "author": "{{project_author}}",
   "license": "ISC",
   "devDependencies": {
+    "axe-core": "{{axe_install_version}}",
     "cypress": "{{cypress_install_version}}",
     "cypress-axe": "{{cypress_axe_install_version}}"
   }
