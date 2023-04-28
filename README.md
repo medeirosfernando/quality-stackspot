@@ -2,7 +2,13 @@
 
 A Stack Cypress AY te ajudará a configurar o ambiente para implementar seus testes automatizados.
 
-<span style="background-color:blue">some *This is Blue italic.* text</span>
+<div style="background-color: rgb(50, 50, 50);">
+
+``python
+print("Yo!")
+``
+
+</div>
 
 
 
